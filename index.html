@@ -26,9 +26,12 @@
       </header>
       <section>
         <h3><a id="About" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
-          <p>大学時代にPCを初めて触って感動し、大学院では専門を変え情報系への道へ入る。当初はOSに興味を持ち、大手電機メーカー子会社を始めとして複数社にて組込みシステム開発に従事していたが、よりユーザーに近いシステム開発がしたくなり、アプリ開発に興味が移る。</p>
-          <p>業務システムに携わった経験から、システムは自分の想像以上に長く生き残ると考え、保守性を重視した開発を心がけている。最先端とのバランスが難しい。</P>
-          <p>趣味は料理。おいしいものを食べたくて、しょっちゅうネットをさまよってレシピを探しては作っている。おかげですぐ太るのが悩み。</p>
+          <h5><a id="History" class="anchor" href="#history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>History</h5>
+            <p>大学時代にPCを初めて触って感動し、大学院では専門を変え情報系への道へ入る。当初はOSに興味を持ち、大手電機メーカー子会社を始めとして複数社にて組込みシステム開発に従事していたが、よりユーザーに近いシステム開発がしたくなり、アプリ開発に興味が移る。</p>
+          <h5><a id="Mind" class="anchor" href="#mind" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mind</h5>
+            <p>業務システムに携わった経験から、システムは自分の想像以上に長く生き残ると考え、保守性を重視した開発を心がけている。最先端とのバランスが難しい。</P>
+          <h5><a id="Interest" class="anchor" href="#interest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interest</h5>
+            <p>Rust</p>
 
         <h3><a id="Skills" class="anchor" href="#skills" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skills</h3>
         <canvas id="skillChart" width="400" height="200"></canvas>
@@ -37,10 +40,10 @@
           var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ["C", "C++", "C#", "PHP", "Python"],
+                labels: ["C", "C++", "C#", "PHP", "Python", "SQL"],
                 datasets: [{
-                    label: '# of Votes',
-                    data: [10, 8, 7, 3, 2],
+                    label: 'Skill Level(Max 10)',
+                    data: [10, 7, 8, 3, 2, 6],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
